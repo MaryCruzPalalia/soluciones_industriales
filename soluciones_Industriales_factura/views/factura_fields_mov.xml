@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="factura_quit_method_payment" inherit_id="account.report_invoice_document">	
+		<xpath expr="//p[@t-if='o.payment_term_id']" position="replace">
+		</xpath>
+	</template>
+</odoo>
+
